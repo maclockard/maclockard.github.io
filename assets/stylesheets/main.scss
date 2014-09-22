@@ -1,2 +1,21 @@
+$navbar-margin-bottom: 0;
+
 @import 'bootstrap';
+
+html, body {
+  height: 100%;
+  width: 100%; }
+
+.sidebar {
+  position: fixed; }
+
+#banner {
+  h1 {
+    color: white; }
+  p {
+    color: white; }
+  background-image: url("");
+  background-size: cover;
+  background-position: 0% 50%; }
+
 

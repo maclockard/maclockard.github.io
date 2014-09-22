@@ -3,10 +3,10 @@
   <channel>
     <title>James M. Lockard</title>
     <description>I am a junior at Rice University studying computer science.</description>
-    <link>maclockard.github.io/</link>
-    <atom:link href="maclockard.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 21 Sep 2014 19:20:54 -0500</pubDate>
-    <lastBuildDate>Sun, 21 Sep 2014 19:20:54 -0500</lastBuildDate>
+    <link>maclockard.github.iomaclockard.github.io/</link>
+    <atom:link href="maclockard.github.iomaclockard.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 21 Sep 2014 20:00:26 -0500</pubDate>
+    <lastBuildDate>Sun, 21 Sep 2014 20:00:26 -0500</lastBuildDate>
     <generator>Jekyll v2.1.1</generator>
     
       <item>
@@ -26,8 +26,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 </description>
         <pubDate>Mon, 14 Jul 2014 08:54:58 -0500</pubDate>
-        <link>maclockard.github.io/jekyll/update/2014/07/14/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">maclockard.github.io/jekyll/update/2014/07/14/welcome-to-jekyll/</guid>
+        <link>maclockard.github.iomaclockard.github.io/jekyll/update/2014/07/14/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">maclockard.github.iomaclockard.github.io/jekyll/update/2014/07/14/welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>
