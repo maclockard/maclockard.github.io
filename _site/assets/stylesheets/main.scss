@@ -1,4 +1,7 @@
 $navbar-margin-bottom: 0;
+$body-bg: #FFF6E5;
+$text-color: #3E454C;
+$link-color: #3498DB;
 
 @import 'bootstrap';
 
@@ -7,13 +10,27 @@ html, body {
   width: 100%; }
 
 .sidebar {
-  position: fixed; }
+  color: white;
+  height: 100%;
+  position: fixed;
+  div{
+    height: 100%;
+    } }
+
+#sidecolor{
+  background-color: #7ECEFD;
+}
+
+hr{
+  border-color: #3E454C;
+}
 
 #banner {
   h1 {
     color: white; }
   p {
     color: white; }
+  background-color: #FF7F66;
   background-image: url("");
   background-size: cover;
   background-position: 0% 50%; }
