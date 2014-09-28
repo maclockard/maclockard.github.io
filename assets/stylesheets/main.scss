@@ -1,13 +1,26 @@
 $navbar-margin-bottom: 0;
-$body-bg: #FFF6E5;
-$text-color: #3E454C;
-$link-color: #3498DB;
+$body-bg: #2d2d2d;
+$text-color: #d3d0c8;
+$headings-color: #ffcc66;
+$link-color: #6699cc;
+$navbar-default-bg: #393939;
+$navbar-default-color: #d3d0c8;
+$navbar-default-link-color: #6699cc;
+$nav-pills-active-link-hover-bg: black;
 
 @import 'bootstrap';
+
+h3{
+  color: #f2777a;
+}
 
 html, body {
   height: 100%;
   width: 100%; }
+
+body{
+  min-height: 1000px;
+}
 
 .sidebar {
   color: white;
@@ -18,7 +31,10 @@ html, body {
     } }
 
 #sidecolor{
-  background-color: #7ECEFD;
+  background-color: #393939;
+  h2{
+    color: #d3d0c8;
+    }
 }
 
 hr{
@@ -27,10 +43,10 @@ hr{
 
 #banner {
   h1 {
-    color: white; }
+    color: #f2f0ec; }
   p {
     color: white; }
-  background-color: #FF7F66;
+  background-color: #66cccc;
   background-image: url("");
   background-size: cover;
   background-position: 0% 50%; }
