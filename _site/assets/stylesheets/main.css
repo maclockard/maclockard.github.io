@@ -5296,7 +5296,7 @@ html, body {
   width: 100%; }
 
 body {
-  min-height: 1000px; }
+  min-height: 1200px; }
 
 .sidebar {
   color: white;
@@ -5312,6 +5312,9 @@ body {
 
 hr {
   border-color: #3E454C; }
+
+.navbar {
+  padding-bottom: 1px; }
 
 #banner {
   background-color: #66cccc;
