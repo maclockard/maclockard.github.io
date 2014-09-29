@@ -5313,6 +5313,9 @@ body {
 hr {
   border-color: #3E454C; }
 
+.navbar {
+  padding-bottom: 1px; }
+
 #banner {
   background-color: #66cccc;
   background-image: url("");
