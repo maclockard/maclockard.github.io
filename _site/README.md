@@ -1,4 +1,3 @@
-maclockard.github.io
+maclockard.com
 ====================
-
-personal site
+My personal site, made using jekyll.

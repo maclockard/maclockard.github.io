@@ -110,19 +110,27 @@
           <h1>About</h1>
           <hr>
           <a name="about"></a>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p>I am a junior at Rice University studying computer science. I have a passion for making things and design. Outside of class, I am heavily involved in Design for America as a studio lead and in student government. In my spare time I enjoy reading, origami, foosball, and watching awesome movies.</p>
         </div>
         <div class="Projects">
         <div class="col-xs-11 col-sm-9 col-sm-offset-3 ">
           <h1>Projects</h1>
           <hr>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
           <a name="projects"></a>
         </div>
         <div class="col-xs-11 col-sm-9 col-sm-offset-3 ">
+          <h3>Guess Hue?</h3>
+          <hr>
+            <p>A colorful twist on the classic game of "I Spy". A player is shown a color then given 30 seconds to take a picture of something with that color in it. They are then assigned a score out of 1000 based on how close the picture is to the goal color. Players have a total of 3 rounds, then a final score is recorded.</p>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/2u7ekmS2uzw"></iframe>
+            </div>
+            <p>I designed and implemented this with four other Rice students for Hack.Rice. We placed 3rd overall for the hack-a-thon.</p>
+            <p>My team an I decided to implement the app in Android since none of us had experience with it before and wanted a learning experience. The photo processing uses an M-tree (with the goal color as a root) to score the photo. Each pixel in the photo is converted into a point in RGB space and placed into the tree. We then query the tree for the closest 1% of pixels, average the color value, and use the distance between the goal color and this average for the score. This allowed us to only grab the intended part of the photo and ignore the background and other noise.</p>
+            <p>Here are some links to the <a href="http://challengepost.com/software/guess-hue">hack-a-thon submission</a> and the <a href="https://github.com/Best-Team-At-Hack-Rice/GuessHue">Github</a>.</p>
           <h3>Rice Design For America Website</h3>
           <hr>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+           <p>I designed and implemented a website featuring a blog, map, and a dynamic layout using Jekyll, Bootstrap, and the Google Maps API. The website will be used later this year by the studio to make blog posts about the progress of various projects. Link found <a href="http://dfarice.com/">here</a>.</p>
         </div>
       </div>
 
