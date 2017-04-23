@@ -1,3 +1,3 @@
 maclockard.com
 ====================
-My personal site.
+My personal site: [maclockard.com](http://maclockard.com/)
