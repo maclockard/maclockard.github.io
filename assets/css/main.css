@@ -1,0 +1,71 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background: #394952;
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto';
+  flex-shrink: 0;
+  height: 100%;
+}
+
+.container {
+  margin: 20px;
+}
+
+.container-1 {
+  height: 186px;
+  width: 186px;
+}
+
+.mac-picture {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color: #99736e;
+  width: 400px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #70838c;
+  opacity: .4;
+  width: 400px;
+}
+
+ul {
+  padding-left: 0px;
+  width: 400px;
+}
+
+li {
+  display: inline;
+  color: #70838c;
+  font-size: 1.2em;
+  line-height: 1.5;
+  list-style: none;
+}
+
+a {
+  margin-left: 5px;
+  color: #7c9fa6;
+  text-decoration: none;
+  transition: .2s;
+}
+
+a:hover {
+  color: #70838c;
+}
