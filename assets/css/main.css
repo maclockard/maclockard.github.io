@@ -44,6 +44,12 @@ body {
   color: #99736e;
 }
 
+.info-container > .desc {
+  margin: 0 15px 0 5px;
+  max-width: 400px;
+  color: #70838c;
+}
+
 .info-container > .divider {
   margin: 10px 0;
   border: 0;
